@@ -1,6 +1,6 @@
 # flask server to report voltage level
 # to run:
-# export FLASK_APP=voltageflask.py
+# export FLASK_APP=whidbey.py
 # flask run --host=0.0.0.0
  
 from gaugeread import get_tank_level 

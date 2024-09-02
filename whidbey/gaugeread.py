@@ -3,6 +3,11 @@
 # Need to wire input into Channel 0. 
 # Potentiometer has three pins -- Vin, OUT and GND 
 
+# This runs on micropython on an ESP32. 
+# Micropython includes various libraries referenced below. 
+# To install on Mac OS, run:
+# brew install micropython
+
 import busio
 import digitalio
 import board
